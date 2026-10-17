@@ -10,8 +10,7 @@ help:
 
 version:
 	go run apis/services/sales/main.go --version
-
-
+	
 # ==============================================================================
 # Define dependencies
 
