@@ -5,8 +5,8 @@ package mux
 import (
 	"os"
 
+	"github.com/rif-7/service/apis/services/api/mid"
 	"github.com/rif-7/service/apis/services/sales/route/sys/checkapi"
-	"github.com/rif-7/service/app/api/mid"
 	"github.com/rif-7/service/foundation/logger"
 	"github.com/rif-7/service/foundation/web"
 )
