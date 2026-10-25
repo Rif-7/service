@@ -38,7 +38,7 @@ spec:
             path: /readiness
             port: 3000
           initialDelaySeconds: 5
-          periodSeconds: 10
+          periodSeconds: 20
           timeoutSeconds: 5
           successThreshold: 1
           failureThreshold: 2
@@ -48,7 +48,7 @@ spec:
             path: /liveness
             port: 3000
           initialDelaySeconds: 2
-          periodSeconds: 5
+          periodSeconds: 15
           timeoutSeconds: 5
           successThreshold: 1
           failureThreshold: 2
